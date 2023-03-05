@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-05T04:47:57Z" name="Default suite" finished-at="2023-03-05T04:48:38Z" duration-ms="41421">
+    <groups>
+    </groups>
+    <test started-at="2023-03-05T04:47:57Z" name="Default test" finished-at="2023-03-05T04:48:38Z" duration-ms="41421">
+      <class name="com.actitime.qa.testcases.UsersPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@1115ec15]" started-at="2023-03-05T04:47:57Z" name="setup" finished-at="2023-03-05T04:48:38Z" duration-ms="41032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUserProfileView()[pri:3, instance:com.actitime.qa.testcases.UsersPageTest@1115ec15]" started-at="2023-03-05T04:48:38Z" name="validateUserProfileView" finished-at="2023-03-05T04:48:38Z" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserProfileView -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@1115ec15]" started-at="2023-03-05T04:48:38Z" name="tearDown" finished-at="2023-03-05T04:48:38Z" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.qa.testcases.UsersPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

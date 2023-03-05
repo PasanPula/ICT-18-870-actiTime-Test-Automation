@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "HRM App Test Cases">
+
+
+<listeners>
+		<listener class-name="com.actitime.qa.extentreportlistener.ExtentReportListner" />
+	</listeners>
+
+   <test name = "HRM App Test Cases">
+      <classes>
+	<!--<class name = "com.actitime.qa.testcases.LoginPageTest" />
+        <class name = "com.actitime.qa.testcases.HomePageTest" /> -->
+ <!--   <class name = "com.actitime.qa.testcases.ReportsPageTest" />-->
+<!-- -    <class name = "com.actitime.qa.testcases.TasksPageTest" /> -->
+		 <class name = "com.actitime.qa.testcases.UsersPageTest" />
+      </classes>
+   </test>
+
+
+</suite>
