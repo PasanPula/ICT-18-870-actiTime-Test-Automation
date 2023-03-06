@@ -323,3 +323,19 @@
 2023-03-05 09:53:16,863 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2023-03-05 09:53:16,863 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Pasan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
 2023-03-05 10:18:28,005  INFO [main] LoginPage:47 - Validated Login
+2023-03-05 19:57:22,425  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 09:32:51,901  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 09:42:56,786  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 10:17:55,296  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 10:25:09,114  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 10:29:35,087  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 10:31:52,644  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 10:33:23,228  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 10:40:32,921  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 10:42:17,012  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 10:50:55,906  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 10:55:58,493  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 11:03:39,281  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 11:09:21,894  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 11:15:47,882  INFO [main] LoginPage:37 - Validated Title
+2023-03-06 11:25:39,097  INFO [main] LoginPage:37 - Validated Title

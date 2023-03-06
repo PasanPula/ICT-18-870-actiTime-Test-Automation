@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.actitime.qa.base.TestBase;
 
 public class LoginPage extends TestBase {
-	
+
 	Logger log = Logger.getLogger(LoginPage.class);
 
 	@FindBy(xpath = "//input[@name='username']")
@@ -43,12 +43,24 @@ public class LoginPage extends TestBase {
 		return actiTimeLogo.isDisplayed();
 	}
 
-	public HomePage loging(String uName, String pword) {
-		log.info("Validated Login");
+	public void enterUsername(String uName) {
 		userName.sendKeys(uName);
+	}
+
+	public void enterPassword(String pword) {
 		passWord.sendKeys(pword);
+	}
+
+	public HomePage logingBtn() {
 		loginButton.click();
 		return new HomePage();
+	}
+
+	public HomePage loging(String uName, String pword) {
+		log.info("Validated Login");
+		enterUsername(uName);
+		enterPassword(pword);
+		return logingBtn();
 	}
 
 }

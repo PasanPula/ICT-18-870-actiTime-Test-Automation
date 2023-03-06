@@ -10,6 +10,8 @@ import com.actitime.qa.base.TestBase;
 
 public class UsersPage extends TestBase {
 
+	WebDriverWait wait = new WebDriverWait(driver, 10);
+
 	@FindBy(xpath = "//table[@class='userNameContainer']")
 	WebElement userRow;
 
@@ -55,18 +57,41 @@ public class UsersPage extends TestBase {
 		userRow.click();
 		return userProfile.isDisplayed();
 	}
-	
+
 	public void addUserBtn() {
 		addUserButton.click();
 	}
+	
+	public Boolean validateAddUserPanel() {
+		return addUserPanal.isDisplayed();
+	}
+
+	public void enterFirstName(String fName) {
+		wait.until(ExpectedConditions.elementToBeClickable(firstNameInput)).sendKeys(fName);
+	}
+
+	public void enterLastName(String lName) {
+		wait.until(ExpectedConditions.elementToBeClickable(lastNameInput)).sendKeys(lName);
+	}
+
+	public void enterEmail(String eMail) {
+		wait.until(ExpectedConditions.elementToBeClickable(emailInput)).sendKeys(eMail);
+	}
+
+	public void clickSubmitBtn() {
+		wait.until(ExpectedConditions.elementToBeClickable(submitButton)).click();
+	}
+
+	public Boolean sucessMessage() {
+		return wait.until(ExpectedConditions.visibilityOf(successMessage)).isDisplayed();
+	}
 
 	public Boolean addUserTest(String fName, String lName, String eMail) {
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.elementToBeClickable(firstNameInput)).sendKeys(fName);
-		wait.until(ExpectedConditions.elementToBeClickable(lastNameInput)).sendKeys(lName);
-		wait.until(ExpectedConditions.elementToBeClickable(emailInput)).sendKeys(eMail);
-		wait.until(ExpectedConditions.elementToBeClickable(submitButton)).click();
-		return wait.until(ExpectedConditions.visibilityOf(successMessage)).isDisplayed();
+		enterFirstName(fName);
+		enterLastName(lName);
+		enterEmail(eMail);
+		clickSubmitBtn();
+		return sucessMessage();
 	}
 
 }

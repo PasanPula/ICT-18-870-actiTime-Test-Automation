@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.641">
+    <testcase classname="Create new user" name="As a admin I should be able create new user" time="19.437">
+        <system-out><![CDATA[Given I am on the Actitime Loging Page......................................passed
+When I Enter my Username as  "admin"........................................passed
+And I Enter my Password as  "manager".......................................passed
+And I click on Loging button................................................passed
+Then I should be able to successfuly loging to Actitime.....................passed
+When I Click on the Users tab...............................................passed
+Then I should be able to successfuly switch Users Page......................passed
+When I Click on the  New User button........................................passed
+Then I should see New user creation panel...................................passed
+When I Enter my FirstName as  "Jhon"........................................passed
+And I Enter my LastName as  "Parker"........................................passed
+And I Enter my Email as  "Jparker@gmail.com"................................passed
+And I click on submit button................................................passed
+Then I should be able to successfuly create new user........................passed
+And Close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
