@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-03-06T05:55:28.659Z",
+        "start_timestamp": "2023-03-06T06:12:53.325Z",
         "line": 22,
         "name": "As a admin I should be able create new user",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10382156900,
+              "duration": 9278483200,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 62520900,
+              "duration": 63040900,
               "status": "passed"
             },
             "line": 5,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 42103000,
+              "duration": 86978800,
               "status": "passed"
             },
             "line": 6,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 58161100,
+              "duration": 56870000,
               "status": "passed"
             },
             "line": 7,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 3864610500,
+              "duration": 4055220300,
               "status": "passed"
             },
             "line": 8,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 2479645600,
+              "duration": 2500113000,
               "status": "passed"
             },
             "line": 9,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 5094800,
+              "duration": 6196600,
               "status": "passed"
             },
             "line": 10,
@@ -109,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 80055900,
+              "duration": 64995700,
               "status": "passed"
             },
             "line": 11,
@@ -121,7 +121,7 @@
           },
           {
             "result": {
-              "duration": 82416900,
+              "duration": 68530100,
               "status": "passed"
             },
             "line": 12,
@@ -133,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 659620800,
+              "duration": 678065800,
               "status": "passed"
             },
             "line": 13,
@@ -151,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 130573100,
+              "duration": 118524700,
               "status": "passed"
             },
             "line": 14,
@@ -169,7 +169,7 @@
           },
           {
             "result": {
-              "duration": 124838900,
+              "duration": 128444100,
               "status": "passed"
             },
             "line": 15,
@@ -187,7 +187,7 @@
           },
           {
             "result": {
-              "duration": 91585100,
+              "duration": 93522200,
               "status": "passed"
             },
             "line": 16,
@@ -199,7 +199,7 @@
           },
           {
             "result": {
-              "duration": 1143060600,
+              "duration": 1148193700,
               "status": "passed"
             },
             "line": 17,
@@ -211,7 +211,7 @@
           },
           {
             "result": {
-              "duration": 143516400,
+              "duration": 151198300,
               "status": "passed"
             },
             "line": 18,

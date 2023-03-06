@@ -1,25 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-05T04:47:57Z" name="Default suite" finished-at="2023-03-05T04:48:38Z" duration-ms="41421">
+  <suite started-at="2023-03-06T06:14:43Z" name="HRM App Test Cases" finished-at="2023-03-06T06:15:56Z" duration-ms="72725">
     <groups>
     </groups>
-    <test started-at="2023-03-05T04:47:57Z" name="Default test" finished-at="2023-03-05T04:48:38Z" duration-ms="41421">
+    <test started-at="2023-03-06T06:14:43Z" name="HRM App Test Cases" finished-at="2023-03-06T06:15:56Z" duration-ms="72725">
       <class name="com.actitime.qa.testcases.UsersPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@1115ec15]" started-at="2023-03-05T04:47:57Z" name="setup" finished-at="2023-03-05T04:48:38Z" duration-ms="41032" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@2f54a33d]" started-at="2023-03-06T06:14:44Z" name="setup" finished-at="2023-03-06T06:14:59Z" duration-ms="15579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateUserProfileView()[pri:3, instance:com.actitime.qa.testcases.UsersPageTest@1115ec15]" started-at="2023-03-05T04:48:38Z" name="validateUserProfileView" finished-at="2023-03-05T04:48:38Z" duration-ms="124" status="PASS">
+        <test-method signature="validateUsersPage()[pri:1, instance:com.actitime.qa.testcases.UsersPageTest@2f54a33d]" started-at="2023-03-06T06:14:59Z" name="validateUsersPage" finished-at="2023-03-06T06:14:59Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsersPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@2f54a33d]" started-at="2023-03-06T06:14:59Z" name="tearDown" finished-at="2023-03-06T06:14:59Z" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@2f54a33d]" started-at="2023-03-06T06:14:59Z" name="setup" finished-at="2023-03-06T06:15:16Z" duration-ms="16691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUsersList()[pri:2, instance:com.actitime.qa.testcases.UsersPageTest@2f54a33d]" started-at="2023-03-06T06:15:16Z" name="validateUsersList" finished-at="2023-03-06T06:15:16Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsersList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@2f54a33d]" started-at="2023-03-06T06:15:16Z" name="tearDown" finished-at="2023-03-06T06:15:16Z" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@2f54a33d]" started-at="2023-03-06T06:15:16Z" name="setup" finished-at="2023-03-06T06:15:37Z" duration-ms="20943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUserProfileView()[pri:3, instance:com.actitime.qa.testcases.UsersPageTest@2f54a33d]" started-at="2023-03-06T06:15:37Z" name="validateUserProfileView" finished-at="2023-03-06T06:15:37Z" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserProfileView -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@1115ec15]" started-at="2023-03-05T04:48:38Z" name="tearDown" finished-at="2023-03-05T04:48:38Z" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@2f54a33d]" started-at="2023-03-06T06:15:37Z" name="tearDown" finished-at="2023-03-06T06:15:37Z" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@2f54a33d]" started-at="2023-03-06T06:15:38Z" name="setup" finished-at="2023-03-06T06:15:54Z" duration-ms="15828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateAddUser(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.actitime.qa.testcases.UsersPageTest@2f54a33d]" started-at="2023-03-06T06:15:54Z" name="validateAddUser" data-provider="getactiTimeTestData" finished-at="2023-03-06T06:15:56Z" duration-ms="2301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jhone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Parker]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jparker@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.actitime.qa.testcases.UsersPageTest@2f54a33d]" started-at="2023-03-06T06:15:56Z" name="tearDown" finished-at="2023-03-06T06:15:56Z" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.actitime.qa.testcases.UsersPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- HRM App Test Cases -->
+  </suite> <!-- HRM App Test Cases -->
 </testng-results>

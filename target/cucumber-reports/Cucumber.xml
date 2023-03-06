@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.641">
-    <testcase classname="Create new user" name="As a admin I should be able create new user" time="19.437">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.805">
+    <testcase classname="Create new user" name="As a admin I should be able create new user" time="18.582">
         <system-out><![CDATA[Given I am on the Actitime Loging Page......................................passed
 When I Enter my Username as  "admin"........................................passed
 And I Enter my Password as  "manager".......................................passed
