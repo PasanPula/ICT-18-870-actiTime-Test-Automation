@@ -1,5 +1,6 @@
 package com.actitime.qa.pages;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -11,6 +12,8 @@ import com.actitime.qa.base.TestBase;
 public class UsersPage extends TestBase {
 
 	WebDriverWait wait = new WebDriverWait(driver, 10);
+	
+	Logger log = Logger.getLogger(UsersPage.class);
 
 	@FindBy(xpath = "//table[@class='userNameContainer']")
 	WebElement userRow;
@@ -46,14 +49,17 @@ public class UsersPage extends TestBase {
 
 	// Actions
 	public String usersPageTitle() {
+		log.info("Validated Title");
 		return driver.getTitle();
 	}
 
 	public Boolean validateUsersList() {
+		log.info("Validated Users List");
 		return userRow.isDisplayed();
 	}
 
 	public Boolean validateProfileAccess() {
+		log.info("Validated Profile Access");
 		userRow.click();
 		return userProfile.isDisplayed();
 	}
@@ -63,6 +69,7 @@ public class UsersPage extends TestBase {
 	}
 	
 	public Boolean validateAddUserPanel() {
+		log.info("Validated Add user panel");
 		return addUserPanal.isDisplayed();
 	}
 
@@ -83,6 +90,7 @@ public class UsersPage extends TestBase {
 	}
 
 	public Boolean sucessMessage() {
+		log.info("Validated New user creation");
 		return wait.until(ExpectedConditions.visibilityOf(successMessage)).isDisplayed();
 	}
 
